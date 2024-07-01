@@ -1,0 +1,6 @@
+ .\cloud_sql_proxy.exe -instances=teknopidu:us-central1:nico=tcp:3306  
+
+
+CONNECT TO DATABASE
+  gcloud sql connect nico --user=root
+  8<s`cbft6X<\K.77

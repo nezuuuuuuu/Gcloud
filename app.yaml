@@ -1,0 +1,20 @@
+runtime: nodejs18
+
+
+handlers:
+- url: /public/images
+  static_dir: images
+
+- url: /public/css
+  static_dir: css
+
+- url: /public/php
+  static_dir: php
+
+- url: /public/js
+  static_dir: js
+  
+
+
+- url: /public/.*
+  script: auto
